@@ -1,3 +1,7 @@
+# nvim.backup
+
+My neovim configuration
+
 ## LSP Setups 
 
 -  Spell checker
