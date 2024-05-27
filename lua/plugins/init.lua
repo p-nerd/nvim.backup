@@ -19,11 +19,33 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        -- defaults
         "lua-language-server",
         "stylua",
+
+        --  HTML, CSS, TailwindCSS
         "html-lsp",
         "css-lsp",
-        "prettier"
+        "tailwindcss-language-server",
+
+        --  PHP
+        "intelephense",
+        "phpcs",
+
+
+        --  JavaScript/Typescript
+        "typescript-language-server",
+        "eslint-lsp",
+        "prettier",
+        "astro-language-server",
+
+        --  Go
+        "gopls",
+
+        --  C/C++
+        "clangd",
+        "clang-format",
+        "codelldb",
       },
     },
   },
@@ -49,6 +71,7 @@ return {
         "javascript",
         "typescript",
         "tsx",
+        "astro",
 
         --  Go
         "go",
@@ -63,14 +86,35 @@ return {
   {
     "windwp/nvim-ts-autotag",
     ft = {
+      -- HTML, CSS, TailwindCSS
       "html",
+
+      --  PHP
       "php",
+
+      -- JavaScript/Typescript
       "javascriptreact",
       "typescriptreact",
-      "astro",
     },
     config = function()
       require("nvim-ts-autotag").setup()
+    end,
+  },
+
+  {
+    "NvChad/nvim-colorizer.lua",
+    opts = {
+      user_default_options = {
+        tailwind = true,
+      },
+    },
+  },
+
+  {
+    "nvimtools/none-ls.nvim",
+    event = "VeryLazy",
+    opts = function()
+      return require "configs.null-ls"
     end,
   },
 }

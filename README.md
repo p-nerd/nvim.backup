@@ -1,11 +1,11 @@
 ## LSP Setups 
 
 -  Spell checker
--  HTML, CSS, TailwindCSS
--  PHP
--  JavaScript/Typescript
--  Go
--  C/C++
+-  [x] HTML, CSS, TailwindCSS
+-  [x] PHP
+-  [x] JavaScript/Typescript
+-  [x] Go
+-  [x] C/C++
 
 ## Keymaps 
 
