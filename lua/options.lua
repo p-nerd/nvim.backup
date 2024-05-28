@@ -8,3 +8,6 @@ require "nvchad.options"
 vim.o.relativenumber = true;
 vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = true, silent = true })
 
+local nvimtree = require "nvchad.configs.nvimtree"
+
+nvimtree.git.ignore = false
