@@ -81,7 +81,10 @@ return {
 
         --  C/C++
         "c",
-        "cpp"
+        "cpp",
+
+        -- Elixir
+        "elixir"
       },
     },
   },
