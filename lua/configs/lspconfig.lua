@@ -13,7 +13,8 @@ local servers = {
   "tailwindcss",
   "eslint",
   "cssls",
-  "astro"
+  "astro",
+  "elixirls"
 }
 
 -- lsps with default config

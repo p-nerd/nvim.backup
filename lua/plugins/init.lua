@@ -46,6 +46,9 @@ return {
         "clangd",
         "clang-format",
         "codelldb",
+
+        -- Elixir
+        "elixir-ls",
       },
     },
   },
