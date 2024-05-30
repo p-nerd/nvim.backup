@@ -14,7 +14,10 @@ return {
       require "configs.lspconfig"
     end,
   },
-
+  {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+  },
   {
     "williamboman/mason.nvim",
     opts = {
