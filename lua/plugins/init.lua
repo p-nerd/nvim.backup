@@ -48,6 +48,7 @@ return {
                 "eslint-lsp",
                 "prettier",
                 "astro-language-server",
+                "prettierd",
 
                 --  Go
                 "gopls",

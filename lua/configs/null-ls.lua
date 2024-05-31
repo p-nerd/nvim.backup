@@ -7,7 +7,7 @@ local opts = {
         -- C/C++
         null_ls.builtins.formatting.clang_format,
         -- JavaScript/TypeScript
-        null_ls.builtins.formatting.prettier,
+        null_ls.builtins.formatting.prettierd,
         -- PHP
         -- null_ls.builtins.diagnostics.phpcs,
         null_ls.builtins.formatting.pint,
