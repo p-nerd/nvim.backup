@@ -8,14 +8,6 @@ return {
     },
 
     {
-        "nvimtools/none-ls.nvim",
-        event = "VeryLazy",
-        opts = function()
-            return require "configs.null-ls"
-        end,
-    },
-
-    {
         "neovim/nvim-lspconfig",
         config = function()
             require("nvchad.configs.lspconfig").defaults()
@@ -48,7 +40,6 @@ return {
                 "eslint-lsp",
                 "prettier",
                 "astro-language-server",
-                "prettierd",
 
                 --  Go
                 "gopls",
