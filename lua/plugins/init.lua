@@ -70,6 +70,7 @@ return {
 
                 --  PHP
                 "php",
+                "twig",
 
                 -- JavaScript/Typescript
                 "json",
@@ -99,6 +100,7 @@ return {
 
             --  PHP
             "php",
+            "twig",
 
             -- JavaScript/Typescript
             "javascriptreact",
