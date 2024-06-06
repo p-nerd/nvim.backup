@@ -2,7 +2,7 @@
 
 My neovim configuration
 
-## LSP Setups 
+## Setups 
 
 -  [x] C/C++
 -  [x] Go
