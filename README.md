@@ -4,12 +4,12 @@ My neovim configuration
 
 ## LSP Setups 
 
--  Spell checker
--  [x] HTML, CSS, TailwindCSS
--  [x] PHP
--  [x] JavaScript/Typescript
--  [x] Go
 -  [x] C/C++
+-  [x] Go
+-  [x] JavaScript/Typescript
+-  [x] PHP, Twig
+-  [x] HTML, CSS, TailwindCSS
+-  Spell checker
 
 ## Keymaps 
 
