@@ -37,3 +37,11 @@ require "nvchad.autocmds"
 vim.schedule(function()
     require "mappings"
 end)
+
+-- Create an autocommand group
+vim.cmd [[
+augroup BladeToPHP
+  autocmd!
+  autocmd BufRead,BufNewFile *.blade.php set filetype=php
+augroup END
+]]
